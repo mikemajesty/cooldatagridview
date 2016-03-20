@@ -66,5 +66,9 @@ namespace cooldatagridview
                 }
             }
         }
+        public static void HideColumn(this DataGridView dgv, string columnName)
+        {
+            dgv.Columns[columnName].Visible = false;
+        }
     }
 }
