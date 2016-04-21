@@ -20,7 +20,7 @@ Overwrite the ProcessCmdKey method of the form and place the following code
 ![alt tag](http://i64.tinypic.com/2961a89.png)
 
 # one more
-If you wnat to hide a colmun of datagridview you can use
+If you want to hide a column of datagridview you can use
 
 ![alt tag](http://i68.tinypic.com/21bkk1t.png)
 
