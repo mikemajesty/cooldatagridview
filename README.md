@@ -1,28 +1,31 @@
 # cooldatagridview
-DatagridView BEFORE of put the cooldatagridview
+DatagridView BEFORE use the cooldatagridview
 
-![alt tag](http://i68.tinypic.com/20zznlu.png)
+[![1.png](https://s15.postimg.org/irxdzqtln/image.png)](https://postimg.org/image/amfc1l5cn/)
 
-DatagridView AFTER of put the cooldatagridview
+DatagridView AFTER use the cooldatagridview
 
-![alt tag](http://i63.tinypic.com/2cyr2w2.png)
+[![2.png](https://s15.postimg.org/5z99zthzv/image.png)](https://postimg.org/image/ufrfuaiqf/)
 
 # How to use
- In your Package Manager Console type ![alt tag](http://i64.tinypic.com/5cyioy.png) 
+ In your Package Manager Console type 
+ ```
+  Install-Package cooldatagridview
+  ```
 
 # Exemple
-![alt tag](http://i63.tinypic.com/33adnx2.png)
+[![3.png](https://s15.postimg.org/jewap9qhn/image.png)](https://postimg.org/image/4ixrhof2v/)
 
 # Another functionality
 cooldatagridview also allows the user to navigate the arrow keys on the lines of datagridview.
 
 Overwrite the ProcessCmdKey method of the form and place the following code
-![alt tag](http://i64.tinypic.com/2961a89.png)
+[![4.png](https://s15.postimg.org/wujbepyzf/image.png)](https://postimg.org/image/g6rtc847r/)
 
 # one more
 If you want to hide a column of datagridview you can use
 
-![alt tag](http://i68.tinypic.com/21bkk1t.png)
+[![5.png](https://s15.postimg.org/tmeu1ocpn/image.png)](https://postimg.org/image/6ky8vxd1z/)
 
 
 
