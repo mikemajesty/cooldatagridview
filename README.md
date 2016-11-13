@@ -26,7 +26,11 @@ Overwrite the ProcessCmdKey method of the form and place the following code
 If you want to hide a column of datagridview you can use
 
 [![5.png](https://s15.postimg.org/tmeu1ocpn/image.png)](https://postimg.org/image/6ky8vxd1z/)
+<hr>
+### License
 
+It is available under the MIT license.
+[License](https://opensource.org/licenses/mit-license.php)
 
 
 
