@@ -12,7 +12,6 @@
  ```
   Install-Package cooldatagridview
 ```
-
 ### Exemple
 [![3.png](https://s15.postimg.org/jewap9qhn/image.png)](https://postimg.org/image/4ixrhof2v/)
 
