@@ -9,11 +9,14 @@
 
 ### How to use
  In your Package Manager Console type 
- ```
+```
   Install-Package cooldatagridview
 ```
 ### Exemple
-[![3.png](https://s15.postimg.org/jewap9qhn/image.png)](https://postimg.org/image/4ixrhof2v/)
+```
+dataGridView1.DataSource = database.Product.ToList();
+dataGridView1.CoolGrid();
+```
 
 ### Another functionality
 cooldatagridview also allows the user to navigate the arrow keys on the lines of datagridview.
