@@ -23,27 +23,28 @@ cooldatagridview also allows the user to navigate the arrow keys on the lines of
 
 Overwrite the ProcessCmdKey method of the form and place the following code
 ```
-protected override bool ProcessCmdKey(ref Message msg, Keys keyData) {
-       
-  switch(keyData)
-  {
-    case: Keys.Up:
-	  dataGridView1.MoveToUp();
-	  break;
-    case: Keys.Down
-	  dataGridView1.MoveToDown();
-	  break;
-    default:
-	  break;
-  }
-  return base.ProcessCmdKey(ref msg, keyData);
+protected override bool ProcessCmdKey(ref Message msg, Keys keyData) 
+{
+	  switch(keyData)
+	  {
+	    case: Keys.Up:
+		  dataGridView1.MoveToUp();
+		  break;
+	    case: Keys.Down
+		  dataGridView1.MoveToDown();
+		  break;
+	    default:
+		  break;
+	  }
+	  return base.ProcessCmdKey(ref msg, keyData);
 }
 ```
 
 ### One more
 If you want to hide a column of datagridview you can use
-
-[![5.png](https://s15.postimg.org/tmeu1ocpn/image.png)](https://postimg.org/image/6ky8vxd1z/)
+```
+dataGridView1.HideColumn("ID");
+```
 <hr>
 ### License
 
