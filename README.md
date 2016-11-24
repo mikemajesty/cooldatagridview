@@ -12,9 +12,13 @@
 ```
   Install-Package cooldatagridview
 ```
+####Then import project namespace
+```
+ using cooldatagridview;
+```
 ### Exemple
 ```
-dataGridView1.DataSource = database.Product.ToList();
+dataGridView1.DataSource = yourObjetist.ToList();
 dataGridView1.CoolGrid();
 ```
 
@@ -23,20 +27,20 @@ cooldatagridview also allows the user to navigate the arrow keys on the lines of
 
 Overwrite the ProcessCmdKey method of the form and place the following code
 ```
-protected override bool ProcessCmdKey(ref Message msg, Keys keyData) 
+protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
 {
-	  switch(keyData)
-	  {
-	    case: Keys.Up:
-		  dataGridView1.MoveToUp();
-		  break;
-	    case: Keys.Down
-		  dataGridView1.MoveToDown();
-		  break;
-	    default:
-		  break;
-	  }
-	  return base.ProcessCmdKey(ref msg, keyData);
+    switch (keyData)
+    {
+	case Keys.Up:
+	    dataGridView1.MoveToUp();
+	    break;
+	case Keys.Down:
+	    dataGridView1.MoveToDown();
+	    break;
+	default:
+	    break;
+    }
+    return base.ProcessCmdKey(ref msg, keyData);
 }
 ```
 
