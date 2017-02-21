@@ -13,11 +13,11 @@
   Install-Package cooldatagridview
 ```
 ####Then import project namespace
-```
+```C#
  using cooldatagridview;
 ```
 ### Exemple
-```
+```C#
 dataGridView1.DataSource = yourObjetist.ToList();
 dataGridView1.CoolGrid();
 ```
@@ -26,7 +26,7 @@ dataGridView1.CoolGrid();
 cooldatagridview also allows the user to navigate the arrow keys on the lines of datagridview.
 
 Overwrite the ProcessCmdKey method of the form and place the following code
-```
+```C#
 protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
 {
     switch (keyData)
@@ -46,7 +46,7 @@ protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
 
 ### One more
 If you want to hide a column of datagridview you can use
-```
+```C#
 dataGridView1.HideColumn("ID");
 ```
 <hr>
