@@ -50,6 +50,7 @@ If you want to hide a column of datagridview you can use
 dataGridView1.HideColumn("ID");
 ```
 <hr>
+
 ### License
 
 It is available under the MIT license.
