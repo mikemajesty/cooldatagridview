@@ -1,4 +1,4 @@
-# Cooldatagridview - Improve the designer of your datagridview.
+# Cooldatagridview - Improve the designer of your datagridview and make it appealing.
 ##### DatagridView BEFORE use the cooldatagridview
 
 [![1.png](https://s15.postimg.org/irxdzqtln/image.png)](https://postimg.org/image/amfc1l5cn/)
